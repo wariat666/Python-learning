@@ -1,6 +1,12 @@
-potrawa1 = input("podaj co lubisz jeść najbardziej na świcie")
-potrawa2 = input("podaj co lubisz jeść najbardziej na świecie oprócz potrawy pierwszej")
+price = int(input("Podaj kwotę do zapłaty za posiłki "))
+withoutTips = price
+withTips15 = withoutTips * 0.15
+withTips20 = price * 1.2
 
-print("z połączenia Twoich dwóch ulubionych potraw wyjdzie: ", potrawa1+potrawa2)
+withTips15 = int(withTips15)
+
+print("Kwota do zapłaty to: ", withoutTips)
+print("W przypadku zapłaty 15% napiwku wyjdzie łącznie: ", withTips15)
+print("W przypadku zapłaty 20% napiwku wyjdzie łącznie: ", withTips20)
 
 input("\n\nAby zakończyć program, naciśnij klawisz Enter.")

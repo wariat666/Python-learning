@@ -21,3 +21,5 @@ print(name.lower())
 print(name.title())
 # zapis z zamianą jednego wyrazu na inny
 print(name.replace("Radek", "Bumbalabumba"))
+
+#dowiedzieć się czemu 100*1,15=114,99999999999999999999999999!!!!!!!!
