@@ -21,5 +21,20 @@ print(name.lower())
 print(name.title())
 # zapis z zamianą jednego wyrazu na inny
 print(name.replace("Radek", "Bumbalabumba"))
-
-#dowiedzieć się czemu 100*1,15=114,99999999999999999999999999!!!!!!!!
+# dwie metody losowania liczb
+import random #importuje moduł do losowania
+die1 = random.randint(1,6) #zakres od 1 do 6
+die2 = random.randrange(6)+1 #randrange liczy od 0 do 6 (6 się nie łapie) więc +1 na końcu
+total = die1 + die2
+print("Wyrzuciłeś", die1, die2, "i uzyskałeś łącznie ", total)
+#funkcja if 
+password = input("Wprowadź hasło ")
+if password == "sekret":
+    print("Udzielono dostęp")
+else:
+    print("Błędne hasło")
+#while
+response = ""
+while response != "Dlatego.":#wykonuje dopóki spełnia warunek
+    response = input("Dlaczego?\n")
+#
