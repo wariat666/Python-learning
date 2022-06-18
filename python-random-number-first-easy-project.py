@@ -46,3 +46,4 @@ while count < numberOfTry :
             print("You number is to big")
 if count == numberOfTry:
     print("Sorry, you lose")
+input("\n\nPress Enter to end program")
