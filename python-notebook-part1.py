@@ -37,4 +37,6 @@ else:
 response = ""
 while response != "Dlatego.":#wykonuje dopóki spełnia warunek
     response = input("Dlaczego?\n")
-#
+#for
+for i in range (1000, -1 , -1):  #nazwa licznika np i w czym ma grzebać i przedziały od do i skok
+    print (i, end = " ") #wyświetla zmienną i a end jest po to by wstawiać spacje na koniec
