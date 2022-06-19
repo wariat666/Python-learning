@@ -1,11 +1,6 @@
-import random
-word = "indeks"
-print("wartość zmiennej ", word, "to")
-high = len(word)
-low = -len(word)
-print(high, low)
-for i in range (10):
-    position = random.randrange(low, high)
-    print ("word[", position, "]\t", word[position])
-
-input("\n\nAby zakończyć...")
+commentUser = input("podaj komunikat: ")
+rewerseCommentUser = ""
+for i in range (len(commentUser)-1, -1, -1 ):
+    rewerseCommentUser +=commentUser[i]
+    
+print (rewerseCommentUser)

@@ -40,3 +40,11 @@ while response != "Dlatego.":#wykonuje dopóki spełnia warunek
 #for
 for i in range (1000, -1 , -1):  #nazwa licznika np i w czym ma grzebać i przedziały od do i skok
     print (i, end = " ") #wyświetla zmienną i a end jest po to by wstawiać spacje na koniec
+#wypisuje znaki od tyłu
+commentUser = input("podaj komunikat: ")
+rewerseCommentUser = ""
+for i in range (len(commentUser)-1, -1, -1 ):
+    rewerseCommentUser +=commentUser[i]
+    
+print (rewerseCommentUser)
+    
