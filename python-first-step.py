@@ -1,6 +1,4 @@
-commentUser = input("podaj komunikat: ")
-rewerseCommentUser = ""
-for i in range (len(commentUser)-1, -1, -1 ):
-    rewerseCommentUser +=commentUser[i]
-    
-print (rewerseCommentUser)
+inwest = 10
+rocznaStopaZwrotu = 2
+print (inwest*rocznaStopaZwrotu)
+print (inwest**rocznaStopaZwrotu)
